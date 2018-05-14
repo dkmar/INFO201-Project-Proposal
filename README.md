@@ -9,7 +9,7 @@ title: "BA6 INFO201 Project Proposal"
 
 ## Audience
 
-For a crime report based on a particular area, almost everyone living near the area is likely to be concerned with safety and will therefore find the report relevant. We have decided to focus on incidents in and around the <span style="color:red">**UW campus**</span>. Though the report will be useful to anyone in this area, we will look to serve <span style="color:red">**students**</span> in particular. Our goal is to present insights from the data and thereby provide our audience with a better sense of how to live safely.  
+For a crime report based on a particular area, almost everyone living near the area is likely to be concerned with safety and will, therefore, find the report relevant. We have decided to focus on incidents in and around the <span style="color:red">**UW campus**</span>. Though the report will be useful to anyone in this area, we will look to serve <span style="color:red">**students**</span> in particular. Our goal is to present insights from the data and thereby provide our audience with a better sense of how to live safely.  
 
 Hence, the specific questions our project will answer for our audience are as following:        
 
@@ -20,21 +20,21 @@ Hence, the specific questions our project will answer for our audience are as fo
 
 # <span style="color:darkblue">Technical Description</span>
 
-To access the data, our group will be using the "RSocrata" library. Since the data we read in is not organized in the most efficient way, we will perform different types of data-wrangling methods to sort the data first. Some basic steps are discribed below: 
+To access the data, our group will be using the "RSocrata" library. Since the data we read in is not organized in the most efficient way, we will perform different types of data-wrangling methods to sort the data first. Some basic steps are described below:
 
 * <span style="color:red">**Filter**</span> down the data as we want to focus on the area near/on UW Seattle campus.
 * <span style="color:red">**Grouping**</span> the data by date, location, incident types, time and other categories to summarize some essential information we would like to use.   
-* <span style="color:red">**Reformating**</span> the overall dataset 
+* <span style="color:red">**Reformating**</span> the overall dataset
     + Selecting relevant columns because we may not need attributes like "RMS CDW ID" and others that aren't useful to us.
-    + Mutating columns to convert dates to a different representation in order to present the data in a more accessible way.<br><br> 
+    + Mutating columns to convert dates to a different representation to present the data in a more accessible way.<br><br>
 
 ## Libraries of Choice
 
-Besides using the "RSocrata" library to interact with our dataset, some other libraries that we'll be using for this project are "ggthemes", "kableExtra" and "lubridate". 
+Besides using the "RSocrata" library to interact with our dataset, some other libraries that we'll be using for this project are "ggthemes", "kableExtra" and "lubridate".
 
 ## Major Challenges
 
-Throughout the process of our final project, we anticipate some challenges. <span style="color:red">Sorting data</span> is definitely something we will spend a lot of time working on because there are more than 1,000,000 rows. We not only have to figure out how to best present the data, but we also need to **make sense of the variables** used in the dataset.
+Throughout the process of our final project, we anticipate some challenges. <span style="color:red">Sorting data</span> is the goal we will spend a lot of time working on because there are more than 1,000,000 rows. We not only have to figure out how to best present the data, but we also need to **make sense of the variables** used in the dataset.
 
 ![](image/image_one.png)
 
