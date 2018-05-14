@@ -5,7 +5,7 @@ title: "BA6 INFO201 Project Proposal"
 # <span style="color:darkblue">Project Description</span><br><br>
 ## General Information  
 
-<span style="color:red">**Seattle Police Department Police Report Incident**</span>, retrieved from [City of Seattle Open Data Portal]("https://dev.socrata.com/foundry/data.seattle.gov/y7pv-r3kh"), is the dataset our group chose to work with. This dataset contains details about incidents in Seattle according to the police reports filed by responding officers. The information for a particular incident is published to the dataset 6-12 hours after the corresponding police report is filed. The dataset contains *over 1,000,000 rows spanning 1990 to 2018*. However, the system for publishing data was adopted by the Seattle Police in 2010, and all records prior to 2010 are only added if the incident is revisited. This means that the vast majority of the data is from *2010-2018*.
+<span style="color:red">**Seattle Police Department Police Report Incident**</span>, retrieved from [City of Seattle Open Data Portal](https://dev.socrata.com/foundry/data.seattle.gov/y7pv-r3kh), is the dataset our group chose to work with. This dataset contains details about incidents in Seattle according to the police reports filed by responding officers. The information for a particular incident is published to the dataset 6-12 hours after the corresponding police report is filed. The dataset contains *over 1,000,000 rows spanning 1990 to 2018*. However, the system for publishing data was adopted by the Seattle Police in 2010, and all records prior to 2010 are only added if the incident is revisited. This means that the vast majority of the data is from *2010-2018*.
 
 ## Audience
 
