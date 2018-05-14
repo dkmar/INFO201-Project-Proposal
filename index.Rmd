@@ -11,12 +11,12 @@ library("knitr")
 link_markdown_Seattlegov <- paste0("[City of Seattle Open Data portal](", "https://dev.socrata.com/foundry/data.seattle.gov/y7pv-r3kh", ")")
 ```
 
-### <span style="color:darkblue">Project Description</span><br><br>
-#### General Information  
+# <span style="color:darkblue">Project Description</span><br><br>
+## General Information  
 
 <span style="color:red">**Seattle Police Department Police Report Incident**</span>, retrieved from `r link_markdown_Seattlegov`, is the dataset our group chose to work with. This dataset contains details about criminal incidents occurred within Seattle, and was recorded by responding officers's initial police reports. The information was transmitted to data.seattle.gov after the incidents were filed into the system. The data we extracted for our group project consists *at least 1,000,000 rows from 1997 to 2018*.
 
-#### Audience
+## Audience
 
 For a crime report based on a particular area, almost everyone living within the area or whoever is interested in learning the safety issue of the area is likely to be concerned and find relevance. However, our group have decided to <span style="color:red">**focus on students near UW campus**</span>. In all, our goal in visualizing the chosen data is to provide our audience, namely the students, a better sense of their safety in Seattle.   
 
@@ -27,7 +27,7 @@ Hence, the specific questions our project will answer for our audience are as fo
 * When is the time that offenders are more likely to commit a crime? Daytime or Midnight? Will the situation vary if the type of crime is different?    
 * Has the safety around UW campus declined or inclined?<br><br>
 
-### <span style="color:darkblue">Technical Description</span>
+# <span style="color:darkblue">Technical Description</span>
 
 To access the data, our group will be using the "RSocrata" library. Since the data we read in is not organized in the most efficient way, we will perform different types of data-wrangling methods to sort the data first. Some basic steps are discribed below: 
 
@@ -37,17 +37,17 @@ To access the data, our group will be using the "RSocrata" library. Since the da
     + Selecting columns because we want to drop columns like "RMS CDW ID" and others that aren't useful to us.
     + Mutating columns to convert dates to a different representation in order to analyze the data in a more convinent way.<br><br> 
 
-#### Library of Choice
+## Library of Choice
 
 Besides using the "RSocrata" library to interact with our dataset, some other libraries that we'll be using for this project are "ggthemes", "kableExtra" and "lubridate". 
 
-#### Major Challenges
+## Major Challenges
 
 Throughout the process of our final project, we anticipate some challenges. <span style="color:red">Sorting data</span> is definitely something we will spend a lot of time working on because there are more than 1,000,000 rows. We not only have to figure out which rows and columns we want to analyze or disregard but also need to **making sense of the variables** used in the dataset. 
 
 ![](image/image_one.png)
 
-#### Additional Statistical Analysis
+## Additional Statistical Analysis
 
 To have a more conprehensive visualization, we are interested in asking some other questions below:    
 
