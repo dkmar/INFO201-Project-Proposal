@@ -1,5 +1,6 @@
 ---
 title: "BA6 INFO201 Project Proposal"
+output: html_document
 ---
 
 ```{r setup, include=FALSE, echo = FALSE}
@@ -13,7 +14,7 @@ link_markdown_Seattlegov <- paste0("[City of Seattle Open Data portal](", "https
 ### <span style="color:darkblue">Project Description</span><br><br>
 #### General Information  
 
-<span style="color:red">**Seattle Police Department Police Report Incident**</span>, retrieved from `r link_markdown_Seattlegov`, is the dataset our group chose to work with. This dataset contains details about criminal incidents occurred within Seattle, and was recorded by responding officers’ initial police reports. The information was transmitted to data.seattle.gov after the incidents were filed into the system. The data we extracted for our group project consists *at least 1,000,000 rows from 1997 to 2018*.
+<span style="color:red">**Seattle Police Department Police Report Incident**</span>, retrieved from `r link_markdown_Seattlegov`, is the dataset our group chose to work with. This dataset contains details about criminal incidents occurred within Seattle, and was recorded by responding officers's initial police reports. The information was transmitted to data.seattle.gov after the incidents were filed into the system. The data we extracted for our group project consists *at least 1,000,000 rows from 1997 to 2018*.
 
 #### Audience
 
@@ -28,17 +29,17 @@ Hence, the specific questions our project will answer for our audience are as fo
 
 ### <span style="color:darkblue">Technical Description</span>
 
-To access the data, our group will be using the “RSocrata” library. Since the data we read in is not organized in the most efficient way, we will perform different types of data-wrangling methods to sort the data first. Some basic steps are discribed below: 
+To access the data, our group will be using the "RSocrata" library. Since the data we read in is not organized in the most efficient way, we will perform different types of data-wrangling methods to sort the data first. Some basic steps are discribed below: 
 
 * <span style="color:red">**Filter**</span> down the data as we want to focus on the area near/on UW Seattle campus.
 * <span style="color:red">**Grouping**</span> the data by year, location, incident types, time and other categories to summarize some essential information we would like to use.   
 * <span style="color:red">**Reformating**</span> the overall dataset 
-    + Selecting columns because we want to drop columns like “RMS CDW ID” and others that aren’t useful to us.
+    + Selecting columns because we want to drop columns like "RMS CDW ID" and others that aren't useful to us.
     + Mutating columns to convert dates to a different representation in order to analyze the data in a more convinent way.<br><br> 
 
 #### Library of Choice
 
-Besides using the “RSocrata” library to interact with our dataset, some other libraries that we’ll be using for this project are “ggthemes”, “kableExtra” and “lubridate”. 
+Besides using the "RSocrata" library to interact with our dataset, some other libraries that we'll be using for this project are "ggthemes", "kableExtra" and "lubridate". 
 
 #### Major Challenges
 
