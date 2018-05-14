@@ -1,6 +1,5 @@
 ---
 title: "BA6 INFO201 Project Proposal"
-output: html_document
 ---
 
 # <span style="color:darkblue">Project Description</span><br><br>
